@@ -1,14 +1,32 @@
-﻿# Xylophone
+# Xylophone ![Author -Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)
 
-   A basic app of xylophone built using flutter
-   
-   
-  APP ICON:
-  
-  <img width="68" alt="Screenshot 2019-08-12 at 9 32 49 PM" src="https://user-images.githubusercontent.com/42263217/62879894-bc3eb800-bd49-11e9-9a8f-302d1664a57a.png">
+## A basic Xylophone app
 
+`Tap on it to hear different sounds#Every row represents different sound`
 
+---
 
-<img width="311" alt="Screenshot 2019-08-10 at 10 44 47 PM" src="https://user-images.githubusercontent.com/42263217/62878714-3f124380-bd47-11e9-9993-658bd3f9cfaf.png">
+App UI
 
-Tap on it to hear different sounds#Every row represents different sound
+![Xylophone Gif](xy.gif)
+
+---
+
+🖥Requirements
+
+- Any Operating System (i.e. MacOS X, Linux, WIndows)
+- IDE (i.e. VsCode, Android Studio)
+- **Flutter plugin** if not there [Click here to install](https://flutter.dev/docs/get-started/install)
+- Simulator/Emulator/A real mobile device connected to the system.
+
+---
+
+How to run:
+
+```
+- Download the source code by using command "git clone https://github.com/khan-rehan/Xylophone.git" in command line.
+- Open the project in Android studio/Vscode and also open the simulator/emulator.
+- Now do the following:
+    1. Type flutter get packages in terminal of Studio/VsCode.
+    2. Click on run in Android studio/ type "flutter run" in terminal of VsCode and there you go!.
+```
