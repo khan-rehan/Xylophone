@@ -2,7 +2,7 @@
 
 ## A basic Xylophone app
 
-`Tap on it to hear different sounds#Every row represents different sound`
+`Tap on it to hear different sounds(Every row represents different sound)`
 
 ---
 
