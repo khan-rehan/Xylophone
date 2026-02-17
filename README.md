@@ -1,55 +1,40 @@
-# Xylophone ![Author -Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)
+# Xylophone
 
-## A basic Xylophone app
+![Author - Rehan Khan](https://img.shields.io/badge/Author-Rehan%20Khan-blue)
 
-`Tap on it to hear different sounds(Every row represents different sound)`
+An interactive xylophone app built with Flutter. Tap the colored keys to play different musical notes.
 
-For help getting started with Flutter, view the online [documentation](https://flutter.dev).
+## Features
 
-You can check out the corresponding Google code lab [here](https://codelabs.developers.google.com/codelabs/flutter/index.html?index=..%2F..%2Findex#0).
+- 7 colored keys, each playing a different note
+- Audio playback using the AudioPlayers plugin
+- Full-width responsive key layout
 
-# Demo
+## Tech Stack
 
-![Xylophone Gif](xy.gif)
+- **Framework:** Flutter
+- **Language:** Dart
+- **Audio:** AudioPlayers plugin
 
-# Getting Started
-
-**Note:** Make sure your Flutter environment is setup & if not installed then [Click here to install](https://flutter.dev/docs/get-started/install)
-
-**Installation**
-
-In the command terminal, run the following commands:
+## Project Structure
 
 ```
-$ git clone https://github.com/khan-rehan/Xylophone.git
-
-$ cd Xylophone/
-
-$ flutter run
+├── lib/
+│   └── main.dart              # UI with 7 colored keys
+└── assets/
+    ├── note1.wav - note7.wav  # Audio files for each note
 ```
 
-# Simulate for iOS
+## Getting Started
 
-## Method One
+**Prerequisites:** [Flutter SDK](https://flutter.dev/docs/get-started/install)
 
-```
-Open the project in Xcode from ios/Runner.xcodeproj.
-Hit the play button.
-```
-
-## Method Two
-
-```
-Run the following command in your terminal.
-$ open -a Simulator
-$ flutter run
+```sh
+git clone https://github.com/khan-rehan/Xylophone.git
+cd Xylophone
+flutter run
 ```
 
-# Simulate for Android
+## Demo
 
-```
-Make sure you have an Android emulator installed and running.
-Run the following command in your terminal.
-$ flutter run
-```
-
+![Xylophone Demo](xy.gif)
